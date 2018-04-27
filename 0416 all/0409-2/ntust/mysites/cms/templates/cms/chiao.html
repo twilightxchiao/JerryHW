@@ -1,0 +1,15 @@
+<font face="微軟正黑體"><font color="#444444"><h1><b>　| 個人網頁 |</b></h1></font>
+<font color="#666666"><h4>　 工業設計系　廖巧穎</h4></font>
+{% for c in mylife %}
+<a herf="https://www.facebook.com/photo.php?fbid=1638246589588032&set=a.127044634041576.32399.100002081218585&type=3&theater"><img src="https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/28872368_1638246592921365_2557547768004476928_n.jpg?_nc_cat=0&oh=f565ff550d525685fb8e873aa48ec368&oe=5B981A0A" width="300" height="300"></a>
+<font color="#888888">
+<h3> 　 英文名字 　| {{ c.englishname }}</h3>
+<h3> 　 年　　齡 　| {{ c.age }}</h3>
+<h3> 　 生　　日　 | {{ c.birthday }}</h3>
+<h3> 　 星　　座　 | {{ c.constellation }}</h3>
+<h3> 　 喜歡的食物 | {{ c.likefood }}</h3>
+<h3> 　 喜歡的國家 | {{ c.likecountry }}</h3>
+<h3> 　 歌　　曲　 | {{ c.likesong }}</h3>
+<h3> 　 電影種類　 | {{ c.likemovietype }}</h3>
+<h3> 　 想做的事 　| {{ c.things }}</h3></font></font>
+	{% endfor %}
